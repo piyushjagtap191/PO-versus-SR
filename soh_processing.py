@@ -12,7 +12,7 @@ def map_city_name(city: str) -> str:
         'surat': 'ahmedabad',
         "ahmedabad": "ahmedabad", 
         "surat": "ahmedabad", 
-        "bengaluru": "bengaluru", 
+        "bengaluru": "bangalore", 
         "chennai": "chennai", 
         "coimbatore": "coimbatore", 
         "bhubaneswar": "cuttack", 
@@ -44,3 +44,4 @@ def map_city_name(city: str) -> str:
         return city
     city_str = str(city).strip()
     return city_map.get(city_str.lower(), city_str)
+
